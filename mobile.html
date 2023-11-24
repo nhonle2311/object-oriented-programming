@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <table border="1" width="300" height="300">
+        <tr>
+            <td>
+                Android<input id="android" />
+                <button type="button" onclick="androidSent()">Sent</button>
+                <div id="inboxAndroid">inbox:</div>
+                <div id="sentAndroid">Sent:</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Iphone<input id="iphone">
+                <button type="button" onclick="iphoneSent()">Sent</button>
+                <div id="inboxIphone">inbox:</div>
+                <div id="sentIphone">Sent</div>
+            </td>
+        </tr>
+    </table>
+<script src="mobile.js"></script>
+<script src="mainMobile.js"></script>
 </body>
 </html>
